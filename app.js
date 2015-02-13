@@ -14,6 +14,7 @@ var drink = require('./routes/drink');
 var comingsoon = require('./routes/coming-soon');
 var home = require('./routes/home');
 var profile = require('./routes/profile');
+var cartcontent = require('./routes/cartcontent');
 
 // Example route
 // var user = require('./routes/user');
@@ -48,6 +49,7 @@ app.get('/drink', drink.view);
 app.get('/home', home.view);
 app.get('/profile', profile.view);
 app.get('/index', index.view);
+app.get('/cartcontent', cartcontent.view);
 
 // Example route
 // app.get('/users', user.list);
