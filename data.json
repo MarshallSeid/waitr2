@@ -1,42 +1,122 @@
 {
-   "food":[
-      {
-         "name":"Goody's",
-         "description":"Best known for authentic South-of-the-Border style food, like big burritos, Baja salad bowls, and other Mexican entrees. Not in the mood for Latin food? The deli features a distinct variety of fresh artisan sandwiches and refreshing sides, as well as an outdoor walk-up window for coffee drinks.",
-         "imageURL":"http://hdh.ucsd.edu/diningmenus/images/menuLogo_goodys.gif",
-         "address":"Goody's Place and Market, Voigt Lane, La Jolla, CA 92037, United States"
-      },
-      {
-         "name":"Ocean View Terrace",
-         "description":"OceanView Terrace welcomes guests to enjoy a delicious array of a la carte specials while relaxing on the outdoor terrace. Choose from piping hot made-to-order specials, fresh salads, in-house baked goods, soft-serve, and more",
-         "imageURL":"http://hdh.ucsd.edu/diningmenus/images/menuLogo_ovt.gif",
-         "address":"Oceanview Terrace Restaurant, La Jolla, CA 92037, United States"
-      },
-      {
-         "name":"Sixty Four Degrees",
-         "description":"Enjoy five stations featuring burgers, shakes, tossed salads, rotisserie specials and a few surprises you will have to come and see to enjoy!",
-         "imageURL":"http://hdh.ucsd.edu/DiningMenus/images/menuLogo_sixtyfour.gif",
-         "address":"Sixty Four Degrees, Revelle College, 9500 Gilman Drive 0351, La Jolla, CA 92093-0351"
-      }
-   ],
-   "drink":[
-      {
-         "name":"Mandeville Coffee Cart - The Art of Espresso",
-         "description":"The Art of Espresso is a friendly gathering place for faculty, staff, and students alike. Outdoor patio seating and an indoor quiet space offer a relaxing, comfortable atmosphere for socializing or studying.",
-         "imageURL":"http://mandeville.ucsd.edu/man_2010/i/aoe_logo.jpg",
-         "address":"Art of Espresso, 9500 Gilman Drive, La Jolla, CA 92093, United States"
-      },
-      {
-         "name":"Cups Outdoor Café",
-         "description":"Cups Outdoor Café serves organic and free-trade coffee, blended drinks, pastries, smoothies, sandwiches, salads, desserts, and vegetarian specialties.",
-         "imageURL":"http://s3-media3.fl.yelpcdn.com/bphoto/8BihGt78fHKNLkFu4gJS9w/l.jpg",
-         "address":"Warren College, La Jolla, CA 92093, 32.882244, -117.234020"
-      },
-      {
-         "name":"Perks Coffee Shop",
-         "description":"Perks serves beverages (including coffee from Barefoot Roasters), healthy sandwiches, snacks, and specialty chocolates.",
-         "imageURL":"http://ucsandiegobookstore.com/App_Themes/Skin_1/images/IconPerks.gif",
-         "address":"University of California San Diego Bookstore, 9500 Gilman Dr, La Jolla, CA 92093"
-      }
-   ]
+    "food": [
+        {
+            "name": "Goody's",
+            "description": "Best known for authentic South-of-the-Border style food, like big burritos, Baja salad bowls, and other Mexican entrees. Not in the mood for Latin food? The deli features a distinct variety of fresh artisan sandwiches and refreshing sides, as well as an outdoor walk-up window for coffee drinks.",
+            "imageURL": "http://hdh.ucsd.edu/diningmenus/images/menuLogo_goodys.gif",
+            "address": "Goody's Place and Market, Voigt Lane, La Jolla, CA 92037, United States"
+        },
+        {
+            "name": "Ocean View Terrace",
+            "description": "OceanView Terrace welcomes guests to enjoy a delicious array of a la carte specials while relaxing on the outdoor terrace. Choose from piping hot made-to-order specials, fresh salads, in-house baked goods, soft-serve, and more",
+            "imageURL": "http://hdh.ucsd.edu/diningmenus/images/menuLogo_ovt.gif",
+            "address": "Oceanview Terrace Restaurant, La Jolla, CA 92037, United States"
+        },
+        {
+            "name": "Sixty Four Degrees",
+            "description": "Enjoy five stations featuring burgers, shakes, tossed salads, rotisserie specials and a few surprises you will have to come and see to enjoy!",
+            "imageURL": "http://hdh.ucsd.edu/DiningMenus/images/menuLogo_sixtyfour.gif",
+            "address": "Sixty Four Degrees, Revelle College, 9500 Gilman Drive 0351, La Jolla, CA 92093-0351"
+        }
+    ],
+    "drink": [
+        {
+            "name": "Mandeville Coffee Cart - The Art of Espresso",
+            "description": "The Art of Espresso is a friendly gathering place for faculty, staff, and students alike. Outdoor patio seating and an indoor quiet space offer a relaxing, comfortable atmosphere for socializing or studying.",
+            "imageURL": "http://mandeville.ucsd.edu/man_2010/i/aoe_logo.jpg",
+            "address": "Art of Espresso, 9500 Gilman Drive, La Jolla, CA 92093, United States"
+        },
+        {
+            "name": "Cups Outdoor Café",
+            "description": "Cups Outdoor Café serves organic and free-trade coffee, blended drinks, pastries, smoothies, sandwiches, salads, desserts, and vegetarian specialties.",
+            "imageURL": "http://s3-media3.fl.yelpcdn.com/bphoto/8BihGt78fHKNLkFu4gJS9w/l.jpg",
+            "address": "Warren College, La Jolla, CA 92093, 32.882244, -117.234020"
+        },
+        {
+            "name": "Perks Coffee Shop",
+            "description": "Perks serves beverages (including coffee from Barefoot Roasters), healthy sandwiches, snacks, and specialty chocolates.",
+            "imageURL": "http://ucsandiegobookstore.com/App_Themes/Skin_1/images/IconPerks.gif",
+            "address": "University of California San Diego Bookstore, 9500 Gilman Dr, La Jolla, CA 92093"
+        }
+    ],
+    "Goody's": [
+        {
+            "name": "Burrito",
+            "description": "Mexican style burrito coming with your choice of Meat, Rice, Beans, Lettuce, Salsa, Guac, Cheese, Sour Cream, and Chipioltle Mayo"
+        },
+        {
+            "name": "Burrito Bowl",
+            "description": "Basically the tastiness of a burrito in a bowl"
+        },
+        {
+            "name": "Meat"
+        },
+        {
+            "name": "Tortilla"
+        },
+        {
+            "name": "Rice"
+        },
+        {
+            "name": "Cheese"
+        },
+        {
+            "name": "Pico de Gallo"
+        },
+        {
+            "name": "Lettuce"
+        }
+    ],
+    "Ocean View Terrace": [
+        {
+            "name": "Breakfast Burrito"
+        },
+        {
+            "name": "Oatmeal"
+        },
+        {
+            "name": "Scrambled Eggs"
+        },
+        {
+            "name": "Sandwich Station"
+        },
+        {
+            "name": "Double CheeseBurger"
+        },
+        {
+            "name": "Chicken Breast"
+        },
+        {
+            "name": "Pasta Pronto"
+        },
+        {
+            "name": "Fried Chicken Fritters"
+        }
+    ],
+    "Sixty Four Degrees": [
+        {
+            "name": "Barnyard Burger"
+        },
+        {
+            "name": "Loozer Oozer"
+        },
+        {
+            "name": "Goat Cheese Polenta"
+        },
+        {
+            "name": "Papaya Slaw"
+        },
+        {
+            "name": "Gourmet Sandwiches"
+        },
+        {
+            "name": "Chicken Bowls"
+        },
+        {
+            "name": "Delux Salads"
+        },
+        {
+            "name": "StrawBerry Milkshake"
+        }
+    ]
 }
