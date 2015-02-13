@@ -1,0 +1,24 @@
+Back Button
+	Takes you back to the wrong Page
+Not sure what the aplication Does 
+Radio buttons are difficult to click
+	Add to Cart
+		"Continue Shopping"
+		Checkout process 
+Map of where they are Located
+Personally having to login
+Description of what the application does
+Can use UCSD Login 
+Logo too large
+Some buttons were unclear (Description - Goody's)
+
+Postits
+	Make images consistent - logo vs real picture
+	Make the icon clickable + 2
+	Fonts and selectors are very small - back button and help button would be very helpful
+		Map for places to eat will be very helpful
+	Use "window.history.Back()" for javascript that bring  user to previous page
+	Bigger tetx for food and drink selector
+	dont forget to bootstrap your images to make them more responsive
+	Consistent mainpage button widths would be nice
+	There are unclear actions
