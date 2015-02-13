@@ -15,6 +15,8 @@ var comingsoon = require('./routes/coming-soon');
 var home = require('./routes/home');
 var profile = require('./routes/profile');
 var cartcontent = require('./routes/cartcontent');
+var goodys = require('./routes/goodys')
+var mandeville = require('./routes/mandeville')
 
 // Example route
 // var user = require('./routes/user');
@@ -50,6 +52,8 @@ app.get('/home', home.view);
 app.get('/profile', profile.view);
 app.get('/index', index.view);
 app.get('/cartcontent', cartcontent.view);
+app.get('/goodys', goodys.view)
+app.get('/mandeville',mandeville.view)
 
 // Example route
 // app.get('/users', user.list);
