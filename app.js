@@ -6,7 +6,7 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var handlebars = require('express3-handlebars')
+var handlebars = require('express3-handlebars');
 
 var index = require('./routes/index');
 var food = require('./routes/food');
@@ -15,8 +15,12 @@ var comingsoon = require('./routes/coming-soon');
 var home = require('./routes/home');
 var profile = require('./routes/profile');
 var cartcontent = require('./routes/cartcontent');
-var goodys = require('./routes/goodys')
-var mandeville = require('./routes/mandeville')
+var goodys = require('./routes/goodys');
+var mandeville = require('./routes/mandeville');
+var ovt = require('./routes/ovt');
+var sixtyFour = require('./routes/sixtyFour');
+var coc = require('./routes/coc');
+var perks = require('./routes/perks');
 
 // Example route
 // var user = require('./routes/user');
@@ -52,9 +56,12 @@ app.get('/home', home.view);
 app.get('/profile', profile.view);
 app.get('/index', index.view);
 app.get('/cartcontent', cartcontent.view);
-app.get('/goodys', goodys.view)
-app.get('/mandeville',mandeville.view)
-
+app.get('/goodys', goodys.view);
+app.get('/mandeville',mandeville.view);
+app.get('/ovt', ovt.view);
+app.get('/sixtyFour', sixtyFour.view);
+app.get('/coc', coc.view);
+app.get('/perks', perks.view);
 // Example route
 // app.get('/users', user.list);
 
