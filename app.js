@@ -9,6 +9,8 @@ var path = require('path');
 var handlebars = require('express3-handlebars');
 
 var index = require('./routes/index');
+var login = require('./routes/login');
+var signup = require('./routes/signup');
 var food = require('./routes/food');
 var drink = require('./routes/drink');
 var comingsoon = require('./routes/coming-soon');
@@ -49,6 +51,8 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.get('/login', login.view);
+app.get('/signup', signup.view);
 app.get('/coming-soon', comingsoon.view);
 app.get('/food', food.view);
 app.get('/drink', drink.view);
