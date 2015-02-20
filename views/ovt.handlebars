@@ -88,33 +88,41 @@ We modify parts of this code to meet our needs.-->
                 </div>
                 <form="order">
                     <p>Breakfast Menu</p>
-                    <input type="radio" name="breakfast" value="breakfastBurrito" >Breakfast Burrito
+                    <input type="radio" name="breakfast" value="Breakfast Burrito" >Breakfast Burrito
                     <br>
-                    <input type="radio" name="breakfast" value="oatmeal">Oatmeal
+                    <input type="radio" name="breakfast" value="Oatmeal">Oatmeal
                     <br>
-                    <input type="radio" name="breakfast" value="omlette">Omlette
+                    <input type="radio" name="breakfast" value="Omlette">Omlette
 
                     <br><br>
                     <p>Lunch</p>
-                    <input type="radio" name="lunch" value="turkeySandwich" >Turkey Sandwich
+                    <input type="radio" name="lunch" value="Turkey Sandwich" >Turkey Sandwich
                     <br>
-                    <input type="radio" name="lunch" value="pasta" >Pasta
+                    <input type="radio" name="lunch" value="Pasta" >Pasta
                     <br>
-                    <input type="radio" name="lunch" value="chilli">Chilli
+                    <input type="radio" name="lunch" value="Chilli">Chilli
                     <br>
-                    <input type="radio" name="lunch" value="burger">Texas Burger
+                    <input type="radio" name="lunch" value="Texas Burger">Texas Burger
                     <br><br>
                     <p>Dinner</p>
-                    <input type="radio" name="dinner" value="chicken">Chicken Thighs
+                    <input type="radio" name="dinner" value="Chicken Thighs">Chicken Thighs
                     <br>
-                    <input type="radio" name="dinner" value="soup" >Minestrone Soup
+                    <input type="radio" name="dinner" value="Minestrone Soup" >Minestrone Soup
                     <br>
                     <br><br>
                 
-                    <a href="cartcontent"> <button class="btn" type="submit" form="order" value="Submit"> <FONT COLOR="black">Add to Cart</font></button>
+                    <br><br>
+                    <input value="Add To Cart" type="submit" onclick="subForm()">
 
 
                 </form>
+                <p>
+                    <b>Order:<br></b><span id="item"></span>
+                    <br>
+                    <p>   
+                    <a href="checkoutsuccess"><button class="btn" value="Order!"><FONT COLOR="black">Order!</font></button>
+                    </p>
+                </p>
             </div>
         </div>
     </header>
@@ -157,11 +165,7 @@ We modify parts of this code to meet our needs.-->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    <script>
-        function goBack() {
-            window.history.back()
-        }
-    </script>
+    <script src="js/waitr.js"></script>
 
 </body>
 

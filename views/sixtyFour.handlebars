@@ -90,28 +90,34 @@ We modify parts of this code to meet our needs.-->
                 <form="order">
 
                     <p>Lunch Menu</p>
-                    <input type="radio" name="lunch" value="burger" >Barnyard Burger
+                    <input type="radio" name="lunch" value="Barnyard Burger" >Barnyard Burger
                     <br>
-                    <input type="radio" name="lunch" value="sandwich" > Oozer Sandwich
+                    <input type="radio" name="lunch" value="Oozer Sandwich" > Oozer Sandwich
                     <br>
-                    <input type="radio" name="lunch" value="slaw" >Papaya Slaw
+                    <input type="radio" name="lunch" value="Papaya Slaw" >Papaya Slaw
                     <br>
-                    <input type="radio" name="lunch" value="bowl">Chicken Bowls
+                    <input type="radio" name="lunch" value="Chicken Bowls">Chicken Bowls
                     <br><br>
                     <p>Dinner</p>
-                    <input type="radio" name="dinner" value="salad"> Deluxe Salad
+                    <input type="radio" name="dinner" value="Deluxe Salad"> Deluxe Salad
                     <br>
-                    <input type="radio" name="dinner" value="fries">French Fries
+                    <input type="radio" name="dinner" value="French Fries">French Fries
                     <br>
-                    <input type="radio" name="dinner" value="milkshake">Strawberry Milkshake
+                    <input type="radio" name="dinner" value="Strawberry Milkshake">Strawberry Milkshake
                     <br>
                     
                     <br><br>
-                
-                    <a href="cartcontent"> <button class="btn" type="submit" form="order" value="Submit"> <FONT COLOR="black">Add to Cart</font></button>
+                    <input value="Add To Cart" type="submit" onclick="subForm()">
 
 
                 </form>
+                <p>
+                    <b>Order:<br></b><span id="item"></span>
+                    <br>
+                    <p>   
+                    <a href="checkoutsuccess"><button class="btn" value="Order!"><FONT COLOR="black">Order!</font></button>
+                    </p>
+                </p>
             </div>
         </div>
     </header>
@@ -155,11 +161,8 @@ We modify parts of this code to meet our needs.-->
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
-    script>
-        function goBack() {
-            window.history.back()
-        }
-    </script>
+    <script src="js/waitr.js"></script>
+
 
 
 </body>

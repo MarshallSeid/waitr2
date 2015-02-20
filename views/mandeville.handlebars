@@ -90,39 +90,46 @@ We modify parts of this code to meet our needs.-->
                 </div>
                 <form="order">
                     <p>Espresso Drinks</p>
-                    <input type="radio" name="epsresso" value="epsresso" checked>Epsresso
+                    <input type="radio" name="epsresso" value="Epsresso">Epsresso
                     <br>
-                    <input type="radio" name="epsresso" value="americano" checked>Americano
+                    <input type="radio" name="epsresso" value="Americano">Americano
                     <br>
-                    <input type="radio" name="epsresso" value="macchiato" checked>Macchito
+                    <input type="radio" name="epsresso" value="Macchito">Macchito
                     <br>
-                    <input type="radio" name="epsresso" value="cappucino" checked>Cappuccino
+                    <input type="radio" name="epsresso" value="Cappuccino">Cappuccino
                     <br>
                     <br><br>
                     <p>Blended</p>
-                    <input type="radio" name="blended" value="blended" checked>Blended Bliss
+                    <input type="radio" name="blended" value="Blended Bliss">Blended Bliss
                     <br>
-                    <input type="radio" name="blended" value="java" checked>Java Chill
+                    <input type="radio" name="blended" value="Java Chill">Java Chill
                     <br>
-                    <input type="radio" name="blended" value="white" checked>White Mocha Chill
+                    <input type="radio" name="blended" value="White Mocha Chill">White Mocha Chill
                     <br>
-                    <input type="radio" name="blended" value="malt" checked>Malty-Malt
+                    <input type="radio" name="blended" value="Malty-Malt">Malty-Malt
                     <br><br>
                     <p>Coffee</p>
-                    <input type="radio" name="coffee" value="coffee" checked>Coffee
+                    <input type="radio" name="coffee" value="Coffee">Coffee
                     <br>
-                    <input type="radio" name="coffee" value="cafeaulait" checked>Cafe au lait
+                    <input type="radio" name="coffee" value="Cafe au lait">Cafe au lait
 
                     <br><br>
                     <p>Extra</p>
-                    <input type="checkbox" name="extras" value="sugar">Sugar
-                    <input type="checkbox" name="extras" value="soy">Soy Milk
-                    <input type="checkbox" name="extras" value="whippedCream">Whipped Cream
-                    <input type="checkbox" name="extras" value="steamedMilk">Steamed Milk
+                    <input type="checkbox" name="extras" value="Sugar">Sugar
+                    <input type="checkbox" name="extras" value="Soy Milk">Soy Milk
+                    <input type="checkbox" name="extras" value="Whipped Cream">Whipped Cream
+                    <input type="checkbox" name="extras" value="Steamed Milk">Steamed Milk
 
                     <br><br>
-                       <a href="cartcontent"> <button type="submit" form="order" value="Submit"> <FONT COLOR="black">Add to Cart</font></button>
+                    <input value="Add To Cart" type="submit" onclick="subForm()">
                 </form>
+                <p>
+                    <b>Order:<br></b><span id="item"></span>
+                    <br>
+                    <p>   
+                    <a href="checkoutsuccess"><button class="btn" value="Order!"><FONT COLOR="black">Order!</font></button>
+                    </p>
+                </p>
             </div>
         </div>
     </header>
@@ -165,11 +172,8 @@ We modify parts of this code to meet our needs.-->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    <script>
-        function goBack() {
-            window.history.back()
-        }
-    </script>
+    <script src="js/waitr.js"></script>
+
 
 </body>
 

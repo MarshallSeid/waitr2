@@ -23,6 +23,8 @@ var ovt = require('./routes/ovt');
 var sixtyFour = require('./routes/sixtyFour');
 var coc = require('./routes/coc');
 var perks = require('./routes/perks');
+var checkoutsuccess = require('./routes/checkoutsuccess');
+
 
 // Example route
 // var user = require('./routes/user');
@@ -66,6 +68,7 @@ app.get('/ovt', ovt.view);
 app.get('/sixtyFour', sixtyFour.view);
 app.get('/coc', coc.view);
 app.get('/perks', perks.view);
+app.get('/checkoutsuccess', checkoutsuccess.view)
 // Example route
 // app.get('/users', user.list);
 
