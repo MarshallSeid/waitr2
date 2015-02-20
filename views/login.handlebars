@@ -49,10 +49,13 @@ We modify parts of this code to meet our needs.
                     Back
                 </a>
             </div> -->
+            <a class="navbar-brand" onclick="goBack()">
+                    <img src="img/backarrow.png" height="30"></img>
+            </a>
             <div class="navbar-header page-scroll">
                 <a class="navbar-brand" href="index">WAITR</a>
             </div>
-
+                
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -141,6 +144,11 @@ We modify parts of this code to meet our needs.
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    <script>
+        function goBack() {
+            window.history.back()
+        }
+    </script>
 
 </body>
 
