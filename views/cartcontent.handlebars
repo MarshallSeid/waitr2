@@ -87,11 +87,14 @@ We modify parts of this code to meet our needs.
                     <img class="img-responsive" src="img/profile.png" alt="" width="15%" height="15%">
                     <div class="intro-text">
                         <span class="name">WAITR</span>
-                        <span class="skills">
+                        <span class="skills" id="cart">
                             Cart is currently empty!
                             <br>
                             Shop around to add items!
                         </span>
+                        <p>   
+                            <a href="checkoutsuccess"><button class="btn" value="Order!"><FONT COLOR="black">Order!</font></button>
+                        </p>
                     </div>
             </div>
         </div>
@@ -135,10 +138,12 @@ We modify parts of this code to meet our needs.
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    <script src="js/waitr.js"></script>
+
     <script>
-        function goBack() {
-            window.history.back()
-        }
+        window.onload = function() {
+            populateCart();
+        };
     </script>
 
 </body>
