@@ -89,17 +89,30 @@ We modify parts of this code to meet our needs.-->
                 </div>
                 <form="order" id="order" action="subForm()">
                     <p>Burrito or Bowl</p>
-                    <input type="radio" class="radio-large" name="Entree" value="Burrito">Burrito
-                    <input type="radio" name="Entree" value="Bowl">Bowl
+
+                    <input type="radio" class="radio-large" name="Entree" value="Burrito">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Burrito
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" class="radio-large" name="Entree" value="Bowl">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Bowl
+                    &nbsp;&nbsp;&nbsp;&nbsp;
 
                     <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <p>Tortilla</p>
-                    <input type="radio" name="tortilla" value="Wheat Tortilla">Wheat 
-                    <input type="radio" name="tortilla" value="Flour Tortilla">Flour
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="tortilla" class="radio-large" value="Wheat Tortilla">Wheat 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="tortilla" class="radio-large" value="Flour Tortilla">Flour
+                    &nbsp;&nbsp;&nbsp;&nbsp;
 
                     <br><br>
                     <p>Beans</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="radio" name="beans" value="Black Beans">Black
+
                     <input type="radio" name="beans" value="Pinto Beans">Pinto
 
                     <br><br>
@@ -117,6 +130,24 @@ We modify parts of this code to meet our needs.-->
                       &nbsp;   &nbsp;
                     <input type="checkbox" name="toppings" value="Sour Cream">Sour Cream
                     
+                    <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio" aria-label="...">
+      </span>
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
 
                     <br><br>
                     <input value="Add To Cart" type="submit" onclick="subForm()">
