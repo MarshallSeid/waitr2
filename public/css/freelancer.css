@@ -450,12 +450,11 @@ footer .footer-below {
 }
 
 .radio-large {
-    margin: 10em 10em 10em 0;
-    width: 20px;
-    border-radius: 10px;
-    transform: scale(8, 8);
-    -moz-transform: scale(8, 8);
-    -ms-transform: scale(8,8);
-    -webkit-transform: scale(8,8);
-    -o-transform: scale(8,8);    
+    margin: 1em 1em 1em 0;
+    width: 10px;
+    transform: scale(3, 3);
+    -moz-transform: scale(3, 3);
+    -ms-transform: scale(3,3);
+    -webkit-transform: scale(3,3);
+    -o-transform: scale(3,3);    
 }   
