@@ -452,9 +452,9 @@ footer .footer-below {
 .radio-large {
     margin: 1em 1em 1em 0;
     width: 10px;
-    transform: scale(3, 3);
-    -moz-transform: scale(3, 3);
-    -ms-transform: scale(3,3);
-    -webkit-transform: scale(3,3);
-    -o-transform: scale(3,3);    
+    transform: scale(3.3, 3.3);
+    -moz-transform: scale(3.3, 3.3);
+    -ms-transform: scale(3.3,3.3);
+    -webkit-transform: scale(3.3,3.3);
+    -o-transform: scale(3.3,3.3);    
 }   

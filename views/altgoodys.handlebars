@@ -89,38 +89,91 @@ We modify parts of this code to meet our needs.-->
                 </div>
                 <form="order" id="order" action="subForm()">
                     <p>Burrito or Bowl</p>
-                    <input type="radio" name="Entree" value="Burrito">
+
+                    <input type="radio" class="radio-large" name="Entree" value="Burrito">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     Burrito
-                    <input type="radio" name="Entree" value="Bowl">Bowl
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" class="radio-large" name="Entree" value="Bowl">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Bowl
+                    &nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <br><br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <p>Tortilla</p>
-                    <input type="radio" name="tortilla" value="Wheat Tortilla">Wheat 
-                    <input type="radio" name="tortilla" value="Flour Tortilla">Flour
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="tortilla" class="radio-large" value="Wheat Tortilla">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Wheat 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="tortilla" class="radio-large" value="Flour Tortilla">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Flour
+                    &nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <br><br>
-                    <p>Beans</p>
-                    <input type="radio" name="beans" value="Black Beans">Black
-                    <input type="radio" name="beans" value="Pinto Beans">Pinto
-
-                    <br><br>
-                    <p>Rice</p>
-                    <input type="radio" name="rice" value="Cilantro Rice">Cilantro
-                    <input type="radio" name="rice" value="Spanish Rice">Spanish
-
-                    <br><br>
-                    <p>Toppings</p>
-                    <input type="checkbox" name="toppings" value="Cheese">Cheese 
-                    &nbsp;   &nbsp;
-                    <input type="checkbox" name="toppings" value="Pico De Gallo">Pico 
-                      &nbsp;   &nbsp;
-                    <input type="checkbox" name="toppings" value="Lettuce">Lettuce
-                      &nbsp;   &nbsp;
-                    <input type="checkbox" name="toppings" value="Sour Cream">Sour Cream
                     
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Beans</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="beans" class="radio-large" value="Black Beans">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Black
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="beans" class="radio-large"  value="Pinto Beans">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Pinto
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Rice</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="rice"  class="radio-large" value="Cilantro Rice">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Cilantro
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="rice"  class="radio-large" value="Spanish Rice">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Spanish
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Toppings</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="toppings"  class="radio-large" value="Cheese">Cheese 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="toppings"  class="radio-large" value="Pico De Gallo">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Pico 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="toppings"  class="radio-large" value="Lettuce">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Lettuce
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="toppings" class="radio-large"  value="Sour Cream">Sour Cream
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                        Extra Addons
+                        <div class="row">
+                        <div class="col-lg-6">
+                        <div class="input-group">
+                        <span class="input-group-addon">
+                        <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                        </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-6">
+                        <div class="input-group">
+                        <span class="input-group-addon">
+                        <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                        </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                        </div><!-- /.row -->
 
                     <br><br>
-                    <FONT COLOR="black"><input value="Add To Cart" type="submit" onclick="subForm()"></FONT>
+                    <FONT COLOR="black">
+                    <input value="Add To Cart" type="submit" onclick="subForm()"> </FONT>
+
                 </form>
             </div>
         </div>
