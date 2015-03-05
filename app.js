@@ -15,6 +15,7 @@ var food = require('./routes/food');
 var drink = require('./routes/drink');
 var comingsoon = require('./routes/coming-soon');
 var home = require('./routes/home');
+var althome = require('./routes/althome');
 var profile = require('./routes/profile');
 var cartcontent = require('./routes/cartcontent');
 var goodys = require('./routes/goodys');
@@ -26,6 +27,7 @@ var perks = require('./routes/perks');
 var checkoutsuccess = require('./routes/checkoutsuccess');
 var addedtocart = require('./routes/addedtocart');
 var altgoodys = require('./routes/altgoodys');
+var altfooddrink = require('./routes/altfooddrink');
 
 
 // Example route
@@ -73,6 +75,9 @@ app.get('/perks', perks.view);
 app.get('/checkoutsuccess', checkoutsuccess.view)
 app.get('/addedtocart', addedtocart.view)
 app.get('/altgoodys', altgoodys.view)
+app.get('/althome', althome.view)
+app.get('/altfooddrink', altfooddrink.view)
+
 // Example route
 // app.get('/users', user.list);
 

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!--
 This is a project by Wesley Febrian, William Werner, and Marshall Seid.
 The majority of this code is reused from:
 https://github.com/IronSummitMedia/startbootstrap-freelancer
 We modify parts of this code to meet our needs.
 -->
-
 
 
 <head>
@@ -53,9 +53,9 @@ We modify parts of this code to meet our needs.
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home">
+                <a class="navbar-brand" onclick="goBack()">
                     <img src="img/backarrow.png" height="30"></img>
-                </a>
+                </a>              
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,19 +85,28 @@ We modify parts of this code to meet our needs.
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/addedtocart.png" alt="">
+                    <img class="img-responsive" src="img/profile.png" alt="" width="15%" height="15%">
                     <div class="intro-text">
                         <span class="name">WAITR</span>
-                        <span class="skills">
-                            Your order has been added to your cart!
-                            <br>
-                            <a href="cartcontent"><input value="Go To Cart" type="submit">
-                        </span>
-                        <span>
-                            <br>
-                            <a href="home"><button class="button"><FONT COLOR="black">Go Home</font></button>
-                        </span>
                     </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="altfooddrink" class="btn btn-lg btn-outline version_b">
+                        <!--<i class="fa fa-download"></i> --> Food and Drinks
+                    </a>
+                </div>
+                <!--
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="coming-soon" class="btn btn-lg btn-outline">
+                         Rush Mode
+                    </a>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="coming-soon" class="btn btn-lg btn-outline">
+                         Meetup
+                    </a>
+                </div>    
+                -->            
             </div>
         </div>
     </header>

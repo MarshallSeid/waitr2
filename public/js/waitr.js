@@ -1,3 +1,16 @@
+$(document).ready(function() {
+	initializePage();
+})
+
+function initializePage(){
+	$(".version_a").click(function(){
+		woopra.track("a_version_button_click");
+	})
+	$(".version_b").click(function(){
+		woopra.track("b_version_button_click");
+	})
+}
+
 function subForm(){
     console.log("submitting");
     var fields = $(":input").serializeArray();
