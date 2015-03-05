@@ -28,6 +28,7 @@ var checkoutsuccess = require('./routes/checkoutsuccess');
 var addedtocart = require('./routes/addedtocart');
 var altgoodys = require('./routes/altgoodys');
 var altfooddrink = require('./routes/altfooddrink');
+var countdown = require('./routes/countdown');
 
 
 // Example route
@@ -77,6 +78,7 @@ app.get('/addedtocart', addedtocart.view)
 app.get('/altgoodys', altgoodys.view)
 app.get('/althome', althome.view)
 app.get('/altfooddrink', altfooddrink.view)
+app.get('/countdown', countdown.view)
 
 // Example route
 // app.get('/users', user.list);
